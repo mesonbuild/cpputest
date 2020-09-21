@@ -1,0 +1,3 @@
+option('extinctions',
+    type : 'boolean',
+    value : 'false')
