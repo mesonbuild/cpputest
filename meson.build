@@ -10,7 +10,7 @@ cpputest_dep = declare_dependency(
     version : meson.project_version(),
     include_directories : cpputest_dirs)
 
-if get_option('extinctions') == true
+if get_option('extinctions')
     cpputest_dep = declare_dependency(
         link_with : cpputest_ext_lib,
         version : meson.project_version(),
