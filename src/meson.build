@@ -1,4 +1,4 @@
-if get_option('extinctions') == true
+if get_option('extinctions')
     cpputest_ext_src = []
     subdir('CppUTestExt')
 endif
